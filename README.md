@@ -1,7 +1,7 @@
 # tally-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for Tally
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Tally](https://www.cdata.com/drivers/tally/download/mcp/). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our [CData MCP Server for Tally](https://www.cdata.com/drivers/tally/download/mcp/). 
 ## Purpose
 We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Tally supported by the [CData JDBC Driver for Tally](https://www.cdata.com/drivers/tally/jdbc/).
 
