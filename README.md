@@ -1,9 +1,9 @@
 # tally-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for Tally
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Tally (beta)](https://www.cdata.com/download/download.aspx?sku=HTZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Tally](https://www.cdata.com/drivers/tally/download/mcp/). 
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Tally supported by the [CData JDBC Driver for Tally](https://www.cdata.com/drivers/tally/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Tally supported by the [CData JDBC Driver for Tally](https://www.cdata.com/drivers/tally/jdbc/).
 
 CData JDBC Driver connects to Tally by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes Tally data available through a simple MC
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/tally/download/jdbc](https://www.cdata.com/drivers/tally/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/tally/download/jdbc](https://www.cdata.com/drivers/tally/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for Tally\`
